@@ -8,4 +8,4 @@ Route::get('/', function () {
     return view('welcome');
 });
 Route::get('users',[UserController::class,'users']);
-Route::get('student',[StudentController::class,'GetStudent']);
+Route::get('students',[StudentController::class,'GetStudent']);
